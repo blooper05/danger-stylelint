@@ -1,1 +1,1 @@
-require "stylelint/gem_version"
+require 'stylelint/gem_version'

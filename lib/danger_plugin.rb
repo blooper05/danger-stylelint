@@ -1,1 +1,1 @@
-require "stylelint/plugin"
+require 'stylelint/plugin'

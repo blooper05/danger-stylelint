@@ -1,5 +1,5 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+
+lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'stylelint/gem_version.rb'
 
@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Stylelint::VERSION
   spec.authors       = ['blooper05']
   spec.email         = ['legend.of.blooper@gmail.com']
-  spec.description   = %q{A short description of danger-stylelint.}
-  spec.summary       = %q{A longer description of danger-stylelint.}
+  spec.description   = 'A short description of danger-stylelint.'
+  spec.summary       = 'A longer description of danger-stylelint.'
   spec.homepage      = 'https://github.com/blooper05/danger-stylelint'
   spec.license       = 'MIT'
 
@@ -28,8 +28,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.4'
 
   # Linting code and docs
-  spec.add_development_dependency "rubocop"
-  spec.add_development_dependency "yard"
+  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'yard'
 
   # Makes testing easy via `bundle exec guard`
   spec.add_development_dependency 'guard', '~> 2.14'
